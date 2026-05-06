@@ -8,7 +8,7 @@ Deep learning is often presented as a black box: a network "learns" by being sho
 
 ### Strategy
 
-Rather than training on a real-world dataset — where no analytic formula for the target exists and correctness can only be judged indirectly — the target is an analytic function: $\arcsin(xy) + \sin(0.2^x + 5y)$. The network's approximation can be compared directly against the ground truth, making the learning signal unambiguous.
+Rather than training on a real-world dataset — where no analytic formula for the target exists and correctness can only be judged indirectly — the target is an analytic function: $\arcsin(xy) + \sin(0.2^x + 5y)$. Since it can be evaluated at every point, both the ground truth and the network's approximation can be rendered as images and compared visually, without resorting to aggregate statistics.
 
 ## Technical Challenges
 
