@@ -1,0 +1,12 @@
+[project]
+name = "backprop"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "nbformat>=5.10",
+    "nbconvert>=7.16",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "tqdm>=4.66",
+]
